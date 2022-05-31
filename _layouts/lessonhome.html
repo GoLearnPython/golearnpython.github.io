@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+</head>
+<body>
+  {% for page in site.lessonhome.pages %}
+    <a href={{ page.filename }}>{{ page.title }}</a>
+  {% endfor %}
+  {{ content }}
+  <a href = {{page.lesson}}> Start learnning</a>
+</body>
+</html>
