@@ -1,5 +1,5 @@
 ---
 title: Home
-template: template
-filename home
+template: homepg
+filename index
 ---
